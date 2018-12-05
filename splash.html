@@ -1,0 +1,44 @@
+<!doctype html>
+<html>
+  <head>
+    <title>CHESS!</title>
+  </head>
+
+  <body>
+    <main>
+<!-- left side of the screen, which contains the outlined how-to -->
+      <section id="left">
+        <div id="guide">
+          <span class="rectangle"></span>
+        </div>
+      </section>
+
+<!-- top center of the screen, which contains the logo, insert-name, and headers -->
+      <section id="top-center">
+        <img src="chess.png" alt="Chess piece-pawn"> 
+        <h1>CHESS! A two player game</h1>
+        <h2>This is an online version of the classic, two player chess game. Here you can begin playing by typing in your name and pressing play!</h2>
+        <form action="/play" method="get">
+          Username: <input type="text" name="username"><br>
+          <button type="submit">PLAY!</button>
+        </form>
+      </section>
+
+<!-- right of the screen, which contains the statistics in a rectangle -->
+      <section id="right">
+        <div id="statistics">
+          <table>
+            <tr>
+              <td>Games Played</td>
+	    </tr>
+	    <tr>	      
+              <td>Games won</td>
+	    </tr>
+	    <tr>
+	      <td>Games lost</td>
+    	    </tr>
+	  </table>
+      </section>
+    </main>
+  </body>
+</html>
