@@ -8,46 +8,35 @@
         <main>
 
 <!-- top center of the screen, which contains the logo, insert-name, and headers -->
-            <section id="top-center">
+            <div id="top-center">
                 <img src="chess.png" alt="Chess piece-pawn">
                 <h1>CHESS! A two player game</h1>
-            </section>
+            </div>
 
 <!-- center of the screen, which contains the timer and the chess board -->
             <section id="center">
 	            <img src="timer2.png" alt="stopwatch">
 	            <h3>Time since last move: </h3>
-	            <table id="chessboard">
-	            </table>
+	            <div class="chessboard">
+                </div>
             </section>
 
 <!-- left side of the screen, which contains player 1's game statistics in an outlined table -->
             <section id="left">
 	            <h3>Player 1 - Game Statistics</h3>
-                <div id="player1">
-                    <table>
-	                    <tr>
-	                        <td>Last move</td>
-	                    </tr>
-	                    <tr>
-	                        <td>Lost Pieces</td>
-	                    </tr>
-	                </table>
+                <div class="player1">
+	                <h4>Last move</h4>
+	                <h4>Lost Pieces</h4>
                 </div>
             </section>
 
 <!-- right of the screen, which contains player 2's game statistics in an outlined table -->
             <section id="right">
                 <h3>Player 2 - Game Statistics</h3>
-                <div id="player2">
-                    <table>
-                        <tr>
-                            <td>Last move</td>
-                        </tr>
-                        <tr>
-                            <td>Lost pieces</td>
-                        </tr>
-                    </table>
+                <div class="player2">
+                    <h4>Last move</h4>
+                    <h4>Lost pieces</h4>
+                </div>
             </section>
         </main>
     </body>
