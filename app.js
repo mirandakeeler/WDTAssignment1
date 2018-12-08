@@ -1,17 +1,13 @@
-var gameStatModule ={function () {
+var gameStatModule = {function () {
 
     // declare pieces variables
-    var king = 
-    var queen =
-    var bishop =
-    var knight =
-    var pawn =
-    var rook =
-    
-}
-
-
-
+        var knight = {piece: "knight", white: "&#9815;", black: "&#9822;"}; 
+        var king = {piece: "king", white: "&#9812;", black: "&#9818;"}; 
+        var queen = {piece: "queen", white: "&#9813;", black: "&#9819;"};  
+        var pawn = {piece: "pawn", white: "&#9817;", black: "&#9823;"};  
+        var rook = {piece: "rook", white: "&#9814;", black: "&#9820;"}; 
+        var bishop = {piece: "bishop", white: "&#9815;", black: "&#9821;"}; 
+}}; 
 
 // create the chessboard with 2 loops
 
@@ -50,4 +46,4 @@ for (var lineCounter = 1; lineCounter < size; lineCounter++) {
     chessBoard += "\n";
 }
 console.log(chessBoard);
-};
+}};
