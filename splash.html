@@ -9,38 +9,35 @@
 
 <!-- top center of the screen, which contains the logo, insert-name, and headers -->
             <section id="top-center">
-                <img src="chess.png" alt="Chess piece-pawn"> 
-                <h1>CHESS! A two player game</h1>
-                <h2>This is an online version of the classic, two player chess game. Here you can begin playing by typing in your name and pressing play!</h2>
-                <form action="/play" method="get">
-                    Username: <input type="text" name="username"><br>
-                    <button type="submit">PLAY!</button>
-                </form>
+                <div class ="header">
+                    <img src="chess.png" alt="Chess piece-pawn"> 
+                    <h1>CHESS! A two player game</h1>
+                    <h2>This is an online version of the classic, two player chess game. Here you can begin playing by typing in your name and pressing play!</h2>
+                </div>
+                <div class="input">
+                    <form action="/play" method="get">
+                        Username: <input type="text" name="username"><br>
+                        <button type="submit">PLAY!</button>
+                    </form>
+                </div>
             </section>
 	
 <!-- left side of the screen, which contains the outlined how-to -->
             <section>
-	        <div id="guide">
-		    <span class="rectangle"></span>
-		    <p>This is your average game of chess. You will be randomly assigned a color (black or white). Possible moves of pieces will be displayed to you if you click on the piece you would like to move. Check will be announced when you or your opponent has a piece in place to check the other's King. Each player will have a maximum of 5 minutes to make a move. If you do not make a move within this alloted time, you automatically lose. If you abruptly exit the game, nothing will be saved (will not count as a win or lose).</p>
-		</div>
-	    </section>
+	            <div class="guide">
+                    <h3>Quick How-To Guide</h3>
+		            <p>This is your average game of chess. You will be randomly assigned a color (black or white). Possible moves of pieces will be displayed to you if you click on the piece you would like to move. Check will be announced when you or your opponent has a piece in place to check the other's King. Each player will have a maximum of 5 minutes to make a move. If you do not make a move within this alloted time, you automatically lose. If you abruptly exit the game, nothing will be saved (will not count as a win or lose).</p>
+		        </div>
+	        </section>
 
 <!-- right of the screen, which contains the statistics in a rectangle -->
             <section id="right">
-                <div id="statistics">
-                    <table>
-                        <tr>
-                            <td>Games Played</td>
-	                    </tr>
-	                    <tr>	      
-                            <td>Games won</td>
-	                    </tr>
-	                    <tr>
-	                        <td>Games lost</td>
-    	                </tr>
-	            </table>
-             </section>
+                <div class="statistics">
+                    <h3>Games Played</h3>
+                    <h3>Games won</h3>
+                    <h3>Games lost</h3>
+                </div>
+            </section>
         </main>
     </body>
 </html>
