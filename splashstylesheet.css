@@ -1,13 +1,13 @@
-header{
+header {
     background: black; 
 }
 
 h1{
-color: white; 
-text-shadow: 4px 4px 4px #aaa;
-font-size: 100%;
-float:left;
-widows: 900px;
+    color: white; 
+    text-shadow: 4px 4px 4px #aaa;
+    font-size: 100%;
+    float:left;
+    widows: 900px;
 }
 
 h2 {
@@ -24,6 +24,19 @@ h2 {
     color: tomato; 
     text-shadow: 2px 2px gold;
     text-align: center; 
+}
+
+@keyframes giddy {
+    from {color: tomato;}
+    to {color: gold;}
+}
+
+.icon {
+    position: relative; 
+    animation-name: giddy; 
+    animation-duration: 3s; 
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
 }
 
 .flicker-slow {
