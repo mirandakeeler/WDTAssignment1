@@ -1,16 +1,71 @@
 header{
-    background: white
+    background: black; 
 }
+
 h1{
-color:black;
+color: white; 
 text-shadow: 4px 4px 4px #aaa;
-font-size: 1.5em;
+font-size: 100%;
 float:left;
 widows: 900px;
 }
-body{
-font-family: 'Vollkorn';
-font-size: 25px;
-font-weight:bold;
-font-style: oblique;
+
+h2 {
+    color: white; 
 }
+
+.nowrap {
+    white-space: nowrap; 
+}
+
+.neon {
+    font-family: 'Bangers', cursive; 
+    font-size: 85px;  
+    color: tomato; 
+    text-shadow: 2px 2px gold;
+    text-align: center; 
+}
+
+.flicker-slow {
+    animation: flicker 3s linear infinite; 
+}
+
+.input {
+    margin: auto; 
+    width: 50%; 
+    padding: 10px; 
+}
+
+body{
+    background: black; 
+}
+
+h3{
+    color: white; 
+}
+
+.guide {
+    border: 1px solid gold; 
+    float: left; 
+    width: 33.33%; 
+    padding: 50px; 
+}
+
+.statistics {
+    border: 1px solid gold; 
+    float: right; 
+    width: 33.33%; 
+    padding: 50px; 
+}
+
+.stat1 {
+    border: 1px solid gold;
+}
+.stat2 {
+    border: 1px solid gold;
+}
+
+.stat3 {
+    border: 1px solid gold;
+}
+
