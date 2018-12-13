@@ -25,7 +25,7 @@ button {
     border: none; 
     color: black; 
     text-align: center; 
-    font-size: 16px; 
+    font-size: 14px; 
     position: absolute; 
     margin-left: 240px;
     border-radius: 8px; 
@@ -94,7 +94,9 @@ h3{
     margin: 10px;  
     padding: 30px; 
     padding-right: 30px; 
-    text-align: center;  
+    text-align: center; 
+    overflow: visible;
+    overflow: auto;
 }
 
 .statistics {
