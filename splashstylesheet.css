@@ -1,16 +1,16 @@
 header {
-    background: white;
+    background: black;
     margin-bottom: 0;      
 }
 
 h1{
-    color:black; 
+    color:white; 
     text-shadow: 4px 4px 4px #aaa;
     font-size: 80%; 
 }
 
 h2 {
-    color:black; 
+    color:white; 
     text-align: left;  
     margin-left: 10px; 
     margin-right: 10px; 
@@ -50,11 +50,11 @@ h2 {
 }
 
 body{
-    background: white; 
+    background: black; 
 }
 
 h3{
-    color: black; 
+    color: white; 
 }
 
 .guide {
