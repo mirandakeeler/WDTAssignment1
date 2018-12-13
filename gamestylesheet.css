@@ -1,4 +1,6 @@
 @import "splashstylesheet.css"; 
+<<<<<<< HEAD
+=======
 
 @keyframes spinHorizontal {
 	0% {
@@ -92,3 +94,4 @@
 .cell.highlight:hover {
 	background-color: #c5c;
 }
+>>>>>>> 6d1125336789d6578c0a1852d8e77fc76d4950e5
