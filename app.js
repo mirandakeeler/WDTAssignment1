@@ -17,7 +17,7 @@ var size = 8;
 
 for (var lineCounter = 1; lineCounter < size; lineCounter++) { 
 
-    if (lineCounter%2 === 0) { //if lineCounter is an even number
+    if (lineCounter % 2 === 0) { //if lineCounter is an even number
         for (var charCounter = 1; charCounter < size; charCounter++) {
             var evenOdd = (charCounter%2 === 0);
             switch (evenOdd) {
@@ -32,7 +32,7 @@ for (var lineCounter = 1; lineCounter < size; lineCounter++) {
         }
     else { //if lineCounter is an odd number
         for (var charCounter = 1; charCounter < size; charCounter++) {
-            var evenOdd = (charCounter%2 === 0);
+            var evenOdd = (charCounter % 2 === 0);
             switch (evenOdd) {
                 case true:
                     chessBoard += " ";
@@ -46,4 +46,4 @@ for (var lineCounter = 1; lineCounter < size; lineCounter++) {
     chessBoard += "\n";
 }
 console.log(chessBoard);
-}};
+};
