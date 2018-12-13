@@ -21,4 +21,5 @@ var gameBoardModule = (function() {
 	var takenPieces = {
 		white: [ ],
 		black: [ ]
-	};
+	}; 
+});
