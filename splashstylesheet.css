@@ -1,17 +1,21 @@
 header {
-    background: black; 
+    background: white;
+    margin-bottom: 0;      
 }
 
 h1{
-    color: white; 
+    color:black; 
     text-shadow: 4px 4px 4px #aaa;
-    font-size: 100%;
-    float:left;
-    widows: 900px;
+    font-size: 80%; 
 }
 
 h2 {
-    color: white; 
+    color:black; 
+    text-align: left;  
+    margin-left: 10px; 
+    margin-right: 10px; 
+    margin-top: 10px; 
+    margin-bottom: 10px; 
 }
 
 .nowrap {
@@ -39,10 +43,6 @@ h2 {
     animation-direction: alternate;
 }
 
-.flicker-slow {
-    animation: flicker 3s linear infinite; 
-}
-
 .input {
     margin: auto; 
     width: 50%; 
@@ -50,25 +50,27 @@ h2 {
 }
 
 body{
-    background: black; 
+    background: white; 
 }
 
 h3{
-    color: white; 
+    color: black; 
 }
 
 .guide {
     border: 1px solid gold; 
-    float: left; 
-    width: 33.33%; 
-    padding: 50px; 
+    margin: auto;  
+    padding: 70px 0; 
 }
 
-.statistics {
+.left h3 {
+    text-align: center; 
+}
+
+.right {
     border: 1px solid gold; 
-    float: right; 
-    width: 33.33%; 
-    padding: 50px; 
+    margin: auto; 
+    padding: 10px;   
 }
 
 .stat1 {
