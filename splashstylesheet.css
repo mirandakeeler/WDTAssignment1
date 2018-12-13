@@ -18,6 +18,10 @@ h2 {
     margin-bottom: 10px; 
 }
 
+p {
+    color: white; 
+}
+
 .nowrap {
     white-space: nowrap; 
 }
@@ -63,13 +67,10 @@ h3{
     width: 50%; 
     margin: auto;  
     padding: 50px; 
-}
-
-.left h3 {
     text-align: center; 
 }
 
-.right {
+.statistics {
     border: 1px solid gold;
     float: right;
     width: 50%;   
@@ -77,14 +78,4 @@ h3{
     padding: 50px;   
 }
 
-.stat1 {
-    border: 1px solid gold;
-}
-.stat2 {
-    border: 1px solid gold;
-}
-
-.stat3 {
-    border: 1px solid gold;
-}
 
