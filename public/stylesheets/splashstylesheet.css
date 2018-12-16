@@ -4,14 +4,13 @@ header {
 }
 
 h1{
-    color:white; 
     text-shadow: 4px 4px 4px #aaa;
     font-size: 80%; 
 }
 
 h2 {
     color:white; 
-    text-align: left;  
+    text-align: center;  
     margin-left: 10px; 
     margin-right: 10px; 
     margin-top: 10px; 
@@ -23,6 +22,10 @@ p::before {
     color: gold;
     font-weight: bold;
   }
+
+h2::before{
+    background-color: pink; 
+}
 
 button {
     -webkit-transition-duration: 0.4s;
@@ -82,7 +85,8 @@ p {
 .input {
     margin: auto; 
     width: 50%; 
-    padding: 10px; 
+    padding: 75px; 
+    text-align: center; 
 }
 
 body{
@@ -97,6 +101,7 @@ h3{
     border: 1px solid gold; 
     float: left; 
     width: 40%; 
+    height: 300px; 
     margin: 10px;  
     padding: 30px; 
     padding-right: 30px; 
@@ -108,7 +113,8 @@ h3{
 .statistics {
     border: 1px solid gold;
     float: right;
-    width: 40%;   
+    width: 40%;  
+    height: 300px;  
     margin: 10px; 
     padding: 30px;  
     padding-left: 30px; 
