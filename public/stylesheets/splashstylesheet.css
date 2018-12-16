@@ -17,6 +17,12 @@ h2 {
     margin-top: 10px; 
     margin-bottom: 10px; 
 }
+p::before { 
+    content: "Read this -";
+    background-color: tomato;
+    color: gold;
+    font-weight: bold;
+  }
 
 button {
     -webkit-transition-duration: 0.4s;
