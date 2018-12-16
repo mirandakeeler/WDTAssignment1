@@ -18,13 +18,12 @@ h2 {
 }
 p::before { 
     content: "Read this -";
-    background-color: tomato;
     color: gold;
     font-weight: bold;
   }
 
-h2::before{
-    background-color: pink; 
+h2::after{
+    content: "!"; 
 }
 
 button {
