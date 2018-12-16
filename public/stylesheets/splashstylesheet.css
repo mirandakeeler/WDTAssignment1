@@ -16,8 +16,14 @@ h2 {
     margin-top: 10px; 
     margin-bottom: 10px; 
 }
+
+h2::after{
+    content: "!"; 
+}
+
 p::before { 
     content: "Read this: ";
+    content: "Read this -";
     color: gold;
     font-weight: bold;
   }
