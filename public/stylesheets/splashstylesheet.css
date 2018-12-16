@@ -21,9 +21,8 @@ h2::after{
     content: "!"; 
 }
 
-p::before { 
-    content: "Read this: ";
-    content: "Read this -";
+h2::before { 
+    content: "Note: ";
     color: gold;
     font-weight: bold;
   }
@@ -107,7 +106,7 @@ h3{
     border: 1px solid gold; 
     float: left; 
     width: 40%; 
-    height: 300px; 
+    height: 340px; 
     margin: 10px;  
     padding: 30px; 
     padding-right: 30px; 
@@ -116,7 +115,7 @@ h3{
     overflow: auto;
 }
 
-.statistics {
+/*.statistics {
     border: 1px solid gold;
     float: right;
     width: 40%;  
@@ -125,6 +124,42 @@ h3{
     padding: 30px;  
     padding-left: 30px; 
     text-align: center;  
+} */
+
+.stat1{
+    border: 1px solid gold; 
+    float: right; 
+    height: 60px; 
+    width: 40%; 
+    margin-bottom: 0; 
+    padding: 30px; 
+    padding-left: 30px; 
+    text-align: center; 
+    margin: 10px; 
+}
+
+.stat2 {
+    border: 1px solid gold; 
+    float: right; 
+    height: 60px; 
+    width: 40%; 
+    margin: 0; 
+    padding: 30px; 
+    padding-left: 30px; 
+    text-align: center;
+    margin: 10px; 
+}
+
+.stat3{
+    border: 1px solid gold; 
+    float: right; 
+    height: 60px; 
+    width: 40%; 
+    margin-top: 0; 
+    padding: 30px; 
+    padding-left: 30px; 
+    text-align: center;
+    margin: 10px; 
 }
 
 

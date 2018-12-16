@@ -2,12 +2,24 @@
 
 .stats_black {
     float: left; 
-    border: 1px solid gold; 
-    width: 10%; 
+    width: 15%; 
+    text-align: center; 
 }
 
 .stats_white {
     float: right; 
-    border: 1px solid gold;
-    width: 10%; 
+    width: 15%; 
+    text-align: center; 
+}
+
+.last {
+    border: 1px solid gold; 
+    text-align: center;
+    height: 200px;  
+}
+
+.taken {
+    border: 1px solid gold; 
+    text-align: center; 
+    height: 200px; 
 }
