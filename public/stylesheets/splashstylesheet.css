@@ -22,10 +22,13 @@ p::before {
     font-weight: bold;
   }
 
+<<<<<<< HEAD
 h2::after{
     content: "!"; 
 }
 
+=======
+>>>>>>> f781f473827435603da9261d34a42298817db57d
 button {
     -webkit-transition-duration: 0.4s;
     transition-duration: 0.4s; 
@@ -86,6 +89,11 @@ p {
     width: 50%; 
     padding: 75px; 
     text-align: center; 
+}
+
+#username {
+    height: 40px; 
+    font-size: 14pt; 
 }
 
 body{
